@@ -3,13 +3,7 @@ using Database.DAO.Interface;
 using Database.Entities;
 using SimpleSongs.Factories;
 using SimpleSongs.Utils.Interfaces;
-using SimpleSongs.View;
 using SimpleSongs.View.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SimpleSongs.Controller
 {
@@ -30,7 +24,7 @@ namespace SimpleSongs.Controller
             _InputSystem = inputSystem;
             _Factory = new(inputSystem);
             _AvailableCommands = new string[] { "\t1. Add new song", "\t2. Delete song", "\t3. View single song",
-            "\t4. View all songs", "\t5. View all songs sorted by author", "\t6. Quit"};
+            "\t4. View all songs", "\t5. View all songs sorted by title", "\t6. Quit"};
 
         }
 

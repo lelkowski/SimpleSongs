@@ -1,12 +1,7 @@
 ﻿using Database.Entities;
 using SimpleSongs.Exceptions;
 using SimpleSongs.Utils.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace SimpleSongs.Factories
 {

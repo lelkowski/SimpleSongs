@@ -1,10 +1,5 @@
 ﻿using SimpleSongs.View.Interfaces;
 using Database.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SimpleSongs.View
 {
@@ -14,17 +9,17 @@ namespace SimpleSongs.View
         {
             for(int i = 0 ; i < entities.Count; i++)
             {
-                Console.WriteLine("~~~~~~~~~~~~ " + (i + 1) + " ~~~~~~~~~~~~");
+                Console.WriteLine("\t~~~~~~~~~~~~ " + (i + 1) + " ~~~~~~~~~~~~");
                 DisplaySingle(entities[i]);
             }
         }
 
         public void DisplaySingle(Song entity)
         {
-            Console.WriteLine("Title : ''" + entity.Title + "''");
-            Console.WriteLine("Author : " + entity.Author);
-            Console.WriteLine("Album Name : ''" + entity.AlbumName + "''");
-            Console.WriteLine("Length : " + entity.Length);
+            Console.WriteLine("\tTitle : ''" + entity.Title + "''");
+            Console.WriteLine("\tAuthor : " + entity.Author);
+            Console.WriteLine("\tAlbum Name : ''" + entity.AlbumName + "''");
+            Console.WriteLine("\tLength : " + entity.Length);
         }
     }
 }
