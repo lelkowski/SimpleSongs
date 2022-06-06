@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Database/bin/Debug/net6.0
+/.vs/SimpleSongs/FileContentIndex
+/Database/obj
+/SimpleSongs/bin/Debug/net6.0
+/SimpleSongs/obj
+/SimpleSongsTests/bin/Debug/net6.0
+/SimpleSongsTests/obj
