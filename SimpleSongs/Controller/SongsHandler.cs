@@ -1,5 +1,4 @@
-﻿using Database.DAO;
-using Database.DAO.Interface;
+﻿using Database.DAO.Interface;
 using Database.Entities;
 using SimpleSongs.Factories;
 using SimpleSongs.Utils.Interfaces;
@@ -107,6 +106,9 @@ namespace SimpleSongs.Controller
                         break;
                     case "6":
                         isRunning = false;
+                        break;
+                    default:
+                        _MenuDisplay.PrintAndWaitForKey("Invalid input, press any key to continue");
                         break;
                 }
             }
